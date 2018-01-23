@@ -12,6 +12,12 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<style type="text/css">
+	.btnNut
+	{
+		width: 120px;
+	}
+</style>
 
 <body>
 	<?php 
@@ -56,28 +62,32 @@
 								<input type="date" placeholder="Enter your birthday" class="form-control" name="txtBirthday" id="txtBirthday">
 							</div>
 							<div class="col-sm-6 form-group">
-<label class="control-label" for="optradio">Gender:</label>
-								</br>
-								<label class="radio-inline">
-      <input type="radio" name="optradio" id="male">Nam
-    </label>
+								<label class="control-label" for="optradio">Gender:</label>
+							</br>
+							<label class="radio-inline">
+								<input type="radio" name="optradio" id="male">Nam
+							</label>
 							
-								<label class="radio-inline">
-      <input type="radio" name="optradio" id="female">Nữ
-    </label>
+							<label class="radio-inline">
+								<input type="radio" name="optradio" id="female">Nữ
+							</label>
 							
-							</div>
-
 						</div>
 
-
-
-						<button type="button" class="btn btn-lg btn-info">Đăng Ký</button>
 					</div>
-				</form>
-			</div>
+
+
+					<div class="form-group">
+						
+					
+					<input type="submit" name="btnSummit" id="btnSummit" class="btn btn-warning btnNut" value="Register" >
+					<input type="reset" name="btnReset" id="btnReset" class="btn btn-info btnNut" value="Reset" >
+					</div>
+				</div>
+			</form>
 		</div>
 	</div>
+</div>
 </body>
 
 </html>
