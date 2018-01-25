@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Admin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
+    <meta name="description" content="Watch shop, đồng hồ">
     <meta name="author" content="Dang Tuan Huy">
 
     <!-- The styles -->
