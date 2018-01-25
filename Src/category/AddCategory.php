@@ -1,28 +1,4 @@
-	<!DOCTYPE html>
-	<html lang="vi">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>Add Category</title>
-		<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-		<link rel="stylesheet" href="../../Layout/css/bootstrap.min.css">
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-		<script type="text/javascript" src="../../Library/PHP/VietnamesDate.js"></script>
-		<script type="text/javascript" src="../../Library/PHP/ckeditor/ckeditor.js"></script>
-		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<style type="text/css">
-		.btnNut
-		{
-			width: 120px;
-		}
-	</style>
 
-</head>
-
-<body>
 	<?php 
 	include_once("../../Library/connect.php");
 	$name ="";
@@ -35,7 +11,7 @@
 		mysqli_query($conn,$sqlinsert);
 	}
 	?>
-	<div  class="container">
+	
 		
 		<form class="form-horizontal" id="frmForm" name="frmForm" method="post">
 			<div class="row">
@@ -57,7 +33,7 @@
 					</div>
 				</div>
 			</form>
-		</div>
+	
 		<script>
 			$(document).ready(function(){ 
 				CKEDITOR.replace( 'txtDetails', 
@@ -90,5 +66,3 @@
 				}); 
 			}); 
 		</script>
-	</body>
-	</html>
