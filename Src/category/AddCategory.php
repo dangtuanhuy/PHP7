@@ -3,12 +3,12 @@
 	include_once("../../Library/connect.php");
 	$name ="";
 	$details = "";
-	if(isset($_POST["btnAdd"]))
+	if (isset($_POST["btnAdd"]))
 	{
 		$name=$_POST["txtName"];
 		$details = $_POST["txtDetails"];
 		$sqlinsert = "INSERT INTO `category`(`CategoryName`, `CategoryDetails`) VALUES('$name','$details')";
-		mysqli_query($conn,$sqlinsert);
+		mysqli_query($conn, $sqlinsert);
 	}
 	?>
 	
